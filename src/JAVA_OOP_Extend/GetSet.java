@@ -1,12 +1,10 @@
 package JAVA_OOP_Extend;
 
 class Person2{
-    //private로 선언함으로써 클래스 외부에선 접근이 불가능합니다.
     private String name;
     private int age;
     private int id;
 
-    //public으로 getter()와 setter()를 선언함으로써 해당클래스에 접근 가능합니다.
     public String getName() {
         return name;
     }
@@ -34,13 +32,11 @@ class Person2{
 
 public class GetSet {
     public static void main(String[] args) {
-        Person2 p = new Person2(); //인스턴스 생성
-        //객체의 멤버는 private여서 접근 불가능하지만 setter()는 public이므로 접근가능
+        Person2 p = new Person2();
         p.setName("아무사람");
         p.setAge(28);
         p.setId(5);
 
-        //getter()도 public이므로 접근가능합니다.
         String name = p.getName();
         System.out.println("근로자의 이름은 " + name);
         int age = p.getAge();
