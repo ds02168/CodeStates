@@ -1,7 +1,7 @@
 package JAVA_OOP_Extend;
 
 interface Customer2{
-    String getOrder(); //public abstract 생략
+    String getOrder();
 }
 
 class CafeCustomerA implements Customer2{
@@ -17,8 +17,8 @@ class CafeCustomerB implements Customer2{
 }
 
 class CafeOwner{
-    public void giveItem(Customer2 customer){ //인터페이스로 형변환
-        System.out.println("Item : " + customer.getOrder()); //동적 바인딩
+    public void giveItem(Customer2 customer){ 
+        System.out.println("Item : " + customer.getOrder());
     }
 }
 
