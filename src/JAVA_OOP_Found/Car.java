@@ -14,7 +14,7 @@ class Car {
     }
 
     public Car(){
-        this("A6");
+        this("A8");
     }
     void power() {
         System.out.println("시동을 걸었습니다.");
