@@ -1,11 +1,11 @@
 package JAVA_OOP_Extend;
 
-class Upper{ //상위 클래스
-    int count = 20; //super.count
+class Upper{
+    int count = 20;
 }
 
-class Lower extends Upper{ //하위 클래스
-    int count = 15; //this.count
+class Lower extends Upper{
+    int count = 15;
 
     void callNum(){
         System.out.println("count = " + count);
