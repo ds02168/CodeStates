@@ -1,24 +1,24 @@
 package JAVA_OOP_Extend;
 
-abstract class Animal3 {public abstract void cry();} //추상 클래스
-interface Pet { void play();} //public abstract 생략
+abstract class Animal3 {public abstract void cry();}
+interface Pet { void play();}
 
-class Dog3 extends Animal3 implements Pet{ //Animal3 상속, Pet 인터페이스 구현
-    public void cry(){ //Animal3
+class Dog3 extends Animal3 implements Pet{
+    public void cry(){
         System.out.println("야옹");
     }
 
-    public void play(){ //Pet
+    public void play(){
         System.out.println("원반 던지기");
     }
 }
 
-class Cat3 extends Animal3 implements Pet{ //Animal3 상속, Pet 인터페이스 구현
-    public void cry(){ //Animal3
+class Cat3 extends Animal3 implements Pet{
+    public void cry(){
         System.out.println("야옹~!");
     }
 
-    public void play(){ //Pet
+    public void play(){
         System.out.println("쥐 잡기");
     }
 }
