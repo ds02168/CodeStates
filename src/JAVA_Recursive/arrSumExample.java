@@ -31,6 +31,6 @@ public class arrSumExample {
     }
     public static void main(String[] args) {
         int[] arr = new int[] {10,3,6,2};
-        System.out.println(arrSum(arr));
+        System.out.println(arrSum(new int[0]));
     }
 }
